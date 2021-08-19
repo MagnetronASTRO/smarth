@@ -1,0 +1,40 @@
+@import "../../sass/varaibles";
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: $navbarWidht;
+
+  h1 {
+    font-size: 2.2rem;
+    color: hsl(300, 98%, 24%);
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    height: 10rem;
+
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

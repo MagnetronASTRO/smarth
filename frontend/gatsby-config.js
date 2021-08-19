@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "static/dashboard.ico",
+        icon: "./static/dashboard.ico",
       },
     },
   ],
